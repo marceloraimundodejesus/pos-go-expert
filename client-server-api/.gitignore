@@ -1,0 +1,13 @@
+# Arquivos gerados em runtime
+quotes.db
+cotacao.txt
+
+# Binários e compilados
+*.exe
+*.out
+*.log
+
+# Configs locais de editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
