@@ -1,0 +1,56 @@
+# --- VCS ---
+.git
+.git/**
+.gitattributes
+.gitignore
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- SO / lixo temporário ---
+.DS_Store
+Thumbs.db
+*~
+
+# --- Builds/artefatos ---
+bin/
+out/
+dist/
+build/
+target/
+coverage/
+*.coverprofile
+*.prof
+*.test
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Logs/temporários ---
+*.log
+*.tmp
+tmp/
+
+# --- Go ---
+vendor/
+.cache/
+
+# --- Dependências de front ---
+node_modules/
+
+# --- ambiente ---
+.env
+.env.*
+*.env
+**/*.env
+*.pem
+*.key
+*.crt
+secrets/
+**/secrets.*
+
+# --- Docker ---
+docker-compose.yml
