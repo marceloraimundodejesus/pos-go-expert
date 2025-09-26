@@ -1,3 +1,6 @@
 
 # Desafio cep-weather-otel
 cep-weather-otel/.env
+
+cep-weather-otel/service-a/server.exe
+cep-weather-otel/service-b/.env
