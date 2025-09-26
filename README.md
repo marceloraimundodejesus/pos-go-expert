@@ -65,3 +65,7 @@ curl -i "https://cep-weather-699154500419.southamerica-east1.run.app/weather/000
 - **sucesso (200 com conversões C/F/K)**
 
 go test ./... -v
+
+## cep-weather-otel
+
+Código da aplicação com dois serviços (A/B) + OpenTelemetry/Zipkin: [/cep-weather-otel](./cep-weather-otel)
